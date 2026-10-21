@@ -60,6 +60,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Cached
 import androidx.compose.material.icons.rounded.Folder
 import androidx.compose.material.icons.rounded.LibraryMusic
+import androidx.compose.material.icons.rounded.Menu
 import androidx.compose.material.icons.rounded.MoreVert
 import androidx.compose.material.icons.rounded.Storage
 import androidx.compose.material.icons.rounded.WbSunny
@@ -179,7 +180,7 @@ fun HomeScreen(
                         Row(Modifier.fillMaxWidth().padding(horizontal = PAGE_GUTTER, vertical = 4.dp)) {
                             androidx.compose.material3.IconButton(onClick = onOpenMenu) {
                                 androidx.compose.material3.Icon(
-                                    androidx.compose.material.icons.Icons.Rounded.Menu,
+                                    Icons.Rounded.Menu,
                                     contentDescription = "Menú",
                                     tint = MaterialTheme.colorScheme.onBackground,
                                 )
